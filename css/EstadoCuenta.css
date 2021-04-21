@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+*, *::before, *::after {  
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0; 
+    padding: 0;
+    background-color:rgb(29, 4, 53);
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+  
+#particles-js {
+  height: 100vh; 
+  width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+.contenedor.header {
+    height: calc(100vh - 55px);
+
+}
+  
+.barra-navegacion ul {
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+  
+  .barra-navegacion li {
+    list-style: none;
+    display: inline-block;
+}
+  
+  
+.barra-navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .5s ease;
+}
+  
+.barra-navegacion a:hover {
+    color: #881bb3;
+    border-bottom: 1px solid currentcolor;
+}
+
+.dinero > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+td,th{
+    border:  2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.opciones > h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+.opc {
+    text-align: center;
+}
+
+.opc > p {
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px;
+    width: 24%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+}
+
+.opc > p:hover{
+    color: #7cbbee;
+    border: 2px solid #7cbbee;
+    transition: .5s;
+}
